@@ -67,6 +67,9 @@ const (
 	// MissingField - indicates that a field is missing
 	MissingField = "missing field"
 
+	// NilOrEmptyString - indicates that a given string is unexpectedly nil or empty
+	NilOrEmptyString = "empty or nil string not allowed"
+
 	// NotEnoughSymbols - indicates that too few symbols are given
 	NotEnoughSymbols = "too few symbols"
 
