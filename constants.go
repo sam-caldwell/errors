@@ -46,6 +46,9 @@ const (
 	// InvalidLogLevel - indicates that the log level is invalid
 	InvalidLogLevel = "invalid log level"
 
+	// InvalidFilePath - invalid file/path
+	InvalidFilePath = "invalid file/path"
+
 	// LockCheckFailed - indicates that the lock-check operation failed
 	LockCheckFailed = "lock check failed"
 
@@ -63,6 +66,9 @@ const (
 
 	// MissingContextId - indicates that context id is missing
 	MissingContextId = "missing contextId (uuid)"
+
+	// MissingExtension - indicates a file extension is missing
+	MissingExtension = "missing extension"
 
 	// MissingField - indicates that a field is missing
 	MissingField = "missing field"
@@ -102,6 +108,9 @@ const (
 
 	// UnknownCommand - indicates that the command is unknown
 	UnknownCommand = "Unknown command"
+
+	//UnrecoverableFilenameCollision - A filename collision has occurred for which there is no recovery option
+	UnrecoverableFilenameCollision = "unrecoverable filename collision"
 
 	// UnsupportedType - indicates an unsupported type is detected
 	UnsupportedType = "Unsupported type"
