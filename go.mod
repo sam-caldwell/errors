@@ -1,3 +1,3 @@
-module github.com/sam-caldwell/errors/v2
+module github.com/sam-caldwell/errors
 
 go 1.18
