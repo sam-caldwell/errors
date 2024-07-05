@@ -112,6 +112,9 @@ const (
 	// UnknownCommand - indicates that the command is unknown
 	UnknownCommand = "Unknown command"
 
+	// UnknownFileFormat - indicates an unknown file format is found
+	UnknownFileFormat = "unknown file format"
+
 	//UnrecoverableFilenameCollision - A filename collision has occurred for which there is no recovery option
 	UnrecoverableFilenameCollision = "unrecoverable filename collision"
 
