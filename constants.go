@@ -7,6 +7,9 @@ const (
 	// BoundsCheckError - indicates that a value fails to meet the expected bounds
 	BoundsCheckError = "bounds check error"
 
+	// CannotCreateFile - indicates that the file cannot crete a given file
+	CannotCreateFile = "cannot create file"
+
 	// CannotOpenFile - indicates that the file cannot be opened
 	CannotOpenFile = "cannot open file"
 
