@@ -52,6 +52,15 @@ const (
 	// InvalidFilePath - invalid file/path
 	InvalidFilePath = "invalid file/path"
 
+	// InvalidResultCount - the number of results is not what was expected
+	InvalidResultCount = "invalid result count"
+
+	//InvalidParentCidr - the parent CIDR given is not valid in the current context
+	InvalidParentCidr = "invalid parent CIDR"
+
+	// InvalidSubnetSize - the subnet size is not what is expected.
+	InvalidSubnetSize = "invalid subnet size"
+
 	// LockCheckFailed - indicates that the lock-check operation failed
 	LockCheckFailed = "lock check failed"
 
