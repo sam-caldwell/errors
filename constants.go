@@ -19,6 +19,9 @@ const (
 	// Details - Modifier (any) to add Details to an error
 	Details = "(%v)"
 
+	//DivisionByZero - A Division By Zero operation was encountered
+	DivisionByZero = "division by zero"
+
 	// DuplicateEntry - indicates that a duplicate is found in some set/list/object
 	DuplicateEntry = "duplicate entry"
 
@@ -69,6 +72,9 @@ const (
 
 	// MalformedInput - indicates that a given input is malformed
 	MalformedInput = "malformed input"
+
+	//MatrixDimensionMismatch - the dimensions of the given matrix/matrices do not match expectations
+	MatrixDimensionMismatch = "matrix dimension mismatch"
 
 	// MissingArguments - indicates that expected arguments are missing
 	MissingArguments = "missing argument"
