@@ -133,9 +133,6 @@ const (
 	//UnrecoverableFilenameCollision - A filename collision has occurred for which there is no recovery option
 	UnrecoverableFilenameCollision = "unrecoverable filename collision"
 
-	// UnsupportedType - indicates an unsupported type is detected
-	UnsupportedType = "Unsupported type"
-
 	// UnsupportedOpsys - indicates that the operating system is unsupported
 	UnsupportedOpsys = "unsupported operating system"
 
@@ -144,6 +141,9 @@ const (
 
 	// UnsupportedLanguage - indicates that the given language is unsupported
 	UnsupportedLanguage = "unsupported language"
+
+	// UnsupportedType - The given type is unsupported in its present use case.
+	UnsupportedType = "unsupported type"
 
 	// UnsupportedVersion - indicates that the version is not supported
 	UnsupportedVersion = "unsupported version"
