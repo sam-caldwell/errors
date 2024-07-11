@@ -94,6 +94,9 @@ const (
 	// NilOrEmptyString - indicates that a given string is unexpectedly nil or empty
 	NilOrEmptyString = "empty or nil string not allowed"
 
+	// NilPointer - indicates that a given pointer is a nil reference
+	NilPointer = "nil pointer"
+
 	// NotEnoughSymbols - indicates that too few symbols are given
 	NotEnoughSymbols = "too few symbols"
 
