@@ -13,6 +13,9 @@ const (
 	// CannotOpenFile - indicates that the file cannot be opened
 	CannotOpenFile = "cannot open file"
 
+	// CannotParseYaml - indicates an error parsing YAML input.
+	CannotParseYaml = "cannot parse yaml input"
+
 	// CannotReadFile - indicates that the file cannot be read
 	CannotReadFile = "cannot read file"
 
